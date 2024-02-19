@@ -1,7 +1,7 @@
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『主入口』页面") -->
 ![fig](https://gitee.com/ChenZhu-Xie/offline_web_pages/raw/master/img/index.png "『主入口』页面")
 
-* English「README」ⓔ 👉 [Stardust_DDTank](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+* English「README」ⓔ 👉 [Stardust_DDTank](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 
 # 静态 个人网页 (解谜密码 :point_right: 登陆 世外桃源)
 
