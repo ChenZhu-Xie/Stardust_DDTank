@@ -1,37 +1,61 @@
-# 弹弹堂_星尘辅助
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『Home/Main entrance』page")
 
-#### 介绍
-弹弹堂_星尘辅助
+* 中文「自述文档」㊥ 👉 [星尘_弹弹堂_辅助软件](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
-#### 软件架构
-软件架构说明
+# Static webpages (Crack password :point_right: log in Xanadu)
 
+## About
+* This project 👉 [offline web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) is a series of static personal webpages I created at the age of 16.
 
-#### 安装教程
+## Description
+* Computer course assignment during high school.
+* Old technology stack: **FrontPage**.
+    * Limited to the time and technology at that time, the effect may be unsatisfactory
+    * But in terms of ideas, there are bi-directional links, puzzle solving/decryption, modifying game files, space exploration, hand-picked background music, etc. All of this constitutes the exploration, shouting, and wandering of that personal period.
+
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/entrance.png "『Portal/Hidden entrance』page")
+
+## Inplementation
+1. Enter homepage from "Homepage (My Mini Website Portal). lnk".  
+2. Explore freely :point_right: until you decrypt the password :point_right: and unlock the hidden webpages.
+    * Solve the riddle! Or you'll be stuck here: in the middle of nowhere forever!
+3. PS: Due to its age (2014_05), page music may not be playable,  
+    * and the background image size cannot adapt to the browser window size.
+
+## History
+* This project 👉 [offline personal web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) was built
+    * (Personal time) by 16-year-old little Xie
+    * (Personal stage) during high school
+    * (World time) in 2014
+
+<!-- ## Software Architecture
+Software architecture description
+
+## Installation
 
 1.  xxxx
 2.  xxxx
 3.  xxxx
 
-#### 使用说明
+## Instructions
 
 1.  xxxx
 2.  xxxx
 3.  xxxx
 
-#### 参与贡献
+## Contribution
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  Fork the repository
+2.  Create Feat_xxx branch
+3.  Commit your code
+4.  Create Pull Request
 
 
-#### 特技
+## Gitee Feature
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
+2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
+3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
+4.  The most valuable open source project [GVP](https://gitee.com/gvp)
+5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
+6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/) -->
