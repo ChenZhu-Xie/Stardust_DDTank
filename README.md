@@ -1,6 +1,6 @@
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『Home/Main entrance』page")
 
-* 中文「自述文档」㊥ 👉 [星尘弹弹堂_辅助软件](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+* 中文「自述文档」㊥ 👉 [星尘弹弹堂 辅助软件](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
 # Static webpages (Crack password :point_right: log in Xanadu)
 
