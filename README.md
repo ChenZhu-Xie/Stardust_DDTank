@@ -2,7 +2,7 @@
 
 * 中文「自述文档」㊥ 👉 [星尘弹弹堂 辅助软件](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
-# Stardust Multi-terminal DDTank Auxiliary-tools
+# Stardust Multi-terminal [DDTank](https://www.ddtank.com) Auxiliary-tools
 
 ## About
 * This project 👉 [offline web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) is a series of static personal webpages I created at the age of 16.
