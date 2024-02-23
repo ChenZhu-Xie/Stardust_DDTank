@@ -3,7 +3,7 @@
 
 * English「README」ⓔ 👉 [Stardust DDTank](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 
-# 静态 个人网页 (解谜密码 :point_right: 登陆 世外桃源)
+# 星尘弹弹堂「全平台辅助」
 
 ## 关于
 * 该项目 👉 [脱机网页们](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B) 是 16 岁的我 做的 静态个人网页（集）
