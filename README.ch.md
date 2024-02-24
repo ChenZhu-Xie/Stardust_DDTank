@@ -29,11 +29,12 @@
 ![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/3.星尘辅助3图.png "「星尘弹弹堂」网页端、模拟器端辅助效果")
 
 ## 实施
-1. 打开 [决斗之城挂机辅助.exe](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City/tree/master/决斗之城挂机辅助.exe)
-    * 它会自动居右
-2. 在打开了[「夜神模拟器」](https://www.yeshen.com/)的情况下，点击辅助的“启动”按钮
-    * 确保屏幕中间无遮挡，直接就是「模拟器」
-        * 辅助会检查该窗口
+1. 在打开了「模拟器」或「网页」的情况下，点击辅助的「启动」按钮
+    * 确保屏幕中间无遮挡，直接就是「模拟器」或「网页」
+        * 辅助会检查相应窗口
+2. 启动辅助后，会弹出「说明书」
+    * 按 Tab 键「打开或关闭」说明书
+    * 按照说明书上的按键顺序指示，使用辅助
 
 ## 历史
 <!-- * 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->

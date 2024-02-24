@@ -24,11 +24,12 @@
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile")
 
 ## Inplementation
-1. Run [The「Hang-up Assist」for Game「Dueling City」.exe](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City/tree/master/决斗之城挂机辅助.exe)
-    * It will automatically move to the right
-2. When[「Night God Simulator」](https://www.yeshen.com/)is turned on, click the Auxiliary's「Start」button
-    * Ensure that there is no obstruction in the middle of the screen, which is directly the「Emulator」
+1. When「Eimulator」or「Game Webpage」is turned on, click the Auxiliary's「Start」button
+    * Ensure that there is no obstruction in the middle of the screen, which is directly the「Eimulator」or「Game Webpage」
         * The auxiliary will check the window
+2. After starting the assistance, the「instruction manual」will pop up
+    * Press the Tab key to「open or close」the instruction manual
+    * To use the auxiliary, follow the button sequence instructions in the manual
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
