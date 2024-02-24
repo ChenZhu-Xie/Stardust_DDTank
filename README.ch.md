@@ -4,14 +4,17 @@
 # 星尘[弹弹堂](https://www.ddtank.com)「全平台辅助」
 
 ## 关于
-* 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+<!-- * 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->
+* 该项目 👉 [「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
     * 源自探索 ⊶ 👉 [「物理」与「人类未来」结课演讲](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/05__2.3__Courses_Presentations/2__2.2__「Physics_and_the_future_of_mankind」_Speach__1.0_year)
         * 属于生涯 ⊂ 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
     * 用于竞赛 ⊷ 👉 [本科 竞赛](https://gitee.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
         * 属于生涯 ⊂ 👉 [本科 活动](https://gitee.com/ChenZhu-Xie/undergraduate_activities)
     * 采用语言 ⊷ 👉 [易语言](https://www.eyuyan.com)
-        * 也被项目采用 ⊶ 👉 [模拟器端[「决斗之城」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
-* English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
+        <!-- * 也被项目采用 ⊶ 👉 [模拟器端[「决斗之城」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City) -->
+        * 也被项目采用 ⊶ 👉 [模拟器端「决斗之城」挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
+<!-- * English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) -->
+* English「README」ⓔ 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile") -->
 ![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/2.星尘辅助2图.png "「星尘弹弹堂」手游辅助效果，及其数学模型")
@@ -33,7 +36,8 @@
         * 辅助会检查该窗口
 
 ## 历史
-* 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+<!-- * 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->
+* 该项目 👉 [「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
     * （个人时间）由 20 ~ 21 岁小谢
     * （世界时间）在 2018 ~ 2019 年的 
     * （个人阶段）大学本科 (1.5 ~ 2.5 / 4.0) 时期 构建

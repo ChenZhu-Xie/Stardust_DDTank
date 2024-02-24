@@ -3,14 +3,17 @@
 # Stardust [DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools
 
 ## About
-* This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
+<!-- * This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) -->
+* This project 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
     * Initialized by dive ⊶ 👉 [Presentation on course「physics and the future of mankind」](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/05__2.3__Courses_Presentations/2__2.2__「Physics_and_the_future_of_mankind」_Speach__1.0_year)
         * Corresponding career ⊂ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
     * Participated in competition ⊷ 👉 [Self Competitions](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
         * Corresponding career ⊂ 👉 [undergraduate activities](https://github.com/ChenZhu-Xie/undergraduate_activities)
     * Adopt language ⊷ 👉[「EPL - Easier Programming Language」](https://www.eyuyan.com)
-        * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game[「Dueling City」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
-* 中文「自述文档」㊥ 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+        <!-- * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game[「Dueling City」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City) -->
+        * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game「Dueling City」](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
+<!-- * 中文「自述文档」㊥ 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->
+* 中文「自述文档」㊥ 👉 [「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
 ## Description
 * Computer course assignment during high school.
@@ -30,7 +33,8 @@
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
 ## History
-* This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built
+<!-- * This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built -->
+* This project 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built
     * (Personal time) by 20~21-year-old little Xie
     * (Personal stage) during (1.5 - 2.5) / 4.0 year in college
     * (World time) in 2018 - 2019
