@@ -13,6 +13,7 @@
     * 采用语言 ⊷ 👉 [易语言](https://www.eyuyan.com)
         <!-- * 也被项目采用 ⊶ 👉 [模拟器端[「决斗之城」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City) -->
         * 也被项目采用 ⊶ 👉 [模拟器端「决斗之城」挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
+    * 采用语言 ⊷ 👉[「易安卓](https://www.e4asoft.com)
 <!-- * English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) -->
 * English「README」ⓔ 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 
@@ -20,10 +21,11 @@
 ![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/2.星尘辅助2图.png "「星尘弹弹堂」手游辅助效果，及其数学模型")
 
 ## 介绍
-* 高中时期 的 微机课 大作业
-* 用 **FrontPage** 做的
-    * 限于当时的时间和技术，只能做到该程度，效果上可能差强人意
-    * 但点子上，有双向链接、解谜/密、修改游戏文件、太空探索、精选背景音乐等，『彷徨』与『呐喊』的影子
+* 数学模型：空气阻力正比于 -kv 的外弹道模型
+* 细节亮点：枪口位置、左右三叉弹道、非正常抛物打法等
+* 快速按键：10s 内出手，按键搭配合适
+    * 最少步数、最快捷径、最高信息量
+* 全平台：页游、手游（安卓；IOS 暂无）、手游模拟器
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator") -->
 ![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/3.星尘辅助3图.png "「星尘弹弹堂」网页端、模拟器端辅助效果")
@@ -34,7 +36,7 @@
         * 辅助会检查相应窗口
 2. 启动辅助后，会弹出「说明书」
     * 按 Tab 键「打开或关闭」说明书
-    * 按照说明书上的按键顺序指示，使用辅助
+    * 按照「说明书」上的「按键顺序」指示，使用辅助
 
 ## 历史
 <!-- * 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->

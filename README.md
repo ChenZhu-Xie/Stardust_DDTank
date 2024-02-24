@@ -12,14 +12,16 @@
     * Adopt language ⊷ 👉[「EPL - Easier Programming Language」](https://www.eyuyan.com)
         <!-- * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game[「Dueling City」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City) -->
         * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game「Dueling City」](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
+    * Adopt language ⊷ 👉[「E4A - Easier For Android](https://www.e4asoft.com)
 <!-- * 中文「自述文档」㊥ 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->
 * 中文「自述文档」㊥ 👉 [「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
 ## Description
-* Computer course assignment during high school.
-* Old technology stack: **FrontPage**.
-    * Limited to the time and technology at that time, the effect may be unsatisfactory
-    * But in terms of ideas, there are bi-directional links, puzzle solving/decryption, modifying game files, space exploration, hand-picked background music, etc. All of this constitutes the exploration, shouting, and wandering of that personal period.
+* Mathematical model: External ballistic model with air resistance proportional to - kv
+* Detail highlights: muzzle position, left and right trident trajectory, abnormal throwing tactics, etc.
+* Quick buttons: Take action within 10 seconds, with appropriate button combinations
+    * Minimum steps, fastest shortcut, maximum amount of information
+* All platforms: Web, Mobile (Android; iOS currently unavailable), Android Emulators
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile")
 
@@ -29,7 +31,7 @@
         * The auxiliary will check the window
 2. After starting the assistance, the「instruction manual」will pop up
     * Press the Tab key to「open or close」the instruction manual
-    * To use the auxiliary, follow the button sequence instructions in the manual
+    * To use the auxiliary, follow the「button sequence」instructions in the manual
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
