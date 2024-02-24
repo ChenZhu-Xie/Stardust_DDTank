@@ -1,12 +1,20 @@
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『主入口』页面") -->
-![fig](https://gitee.com/ChenZhu-Xie/offline_web_pages/raw/master/img/index.png "『主入口』页面")
-
-* English「README」ⓔ 👉 [Stardust DDTank](https://github.com/ChenZhu-Xie/Stardust_DDTank)
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/logo.jpg "Logo for Stardust-DDTank Multi-terminal Auxiliary-tools") -->
+![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/logo.jpg "「星尘弹弹堂」全平台辅助 logo")
 
 # 星尘[弹弹堂](https://www.ddtank.com)「全平台辅助」
 
 ## 关于
-* 该项目 👉 [脱机网页们](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B) 是 16 岁的我 做的 静态个人网页（集）
+* 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+    * 源自探索 ⊶ 👉 [「物理」与「人类未来」结课演讲](https://gitee.com/ChenZhu-Xie/undergraduate_courses/tree/master/05__2.3__Courses_Presentations/2__2.2__「Physics_and_the_future_of_mankind」_Speach__1.0_year)
+        * 属于生涯 ⊂ 👉 [本科 课程](https://gitee.com/ChenZhu-Xie/undergraduate_courses)
+    * 用于竞赛 ⊷ 👉 [本科 竞赛](https://gitee.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
+        * 属于生涯 ⊂ 👉 [本科 活动](https://gitee.com/ChenZhu-Xie/undergraduate_activities)
+    * 采用语言 ⊷ 👉 [易语言](https://www.eyuyan.com)
+        * 也被项目采用 ⊶ 👉 [模拟器端[「决斗之城」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
+* English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
+
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile") -->
+![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/2.星尘辅助2图.png "「星尘弹弹堂」手游辅助效果，及其数学模型")
 
 ## 介绍
 * 高中时期 的 微机课 大作业
@@ -14,21 +22,21 @@
     * 限于当时的时间和技术，只能做到该程度，效果上可能差强人意
     * 但点子上，有双向链接、解谜/密、修改游戏文件、太空探索、精选背景音乐等，『彷徨』与『呐喊』的影子
 
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/entrance.png "『隐藏入口 / 传送门』页面") -->
-![fig](https://gitee.com/ChenZhu-Xie/offline_web_pages/raw/master/img/entrance.png "『主入口』页面")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator") -->
+![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/3.星尘辅助3图.png "「星尘弹弹堂」网页端、模拟器端辅助效果")
 
 ## 实施
-1. 从 “主页（我的小网站入口）.lnk” 进入 Home。  
-2. 自由探索 :point_right: 直到获得密码 :point_right: 进入隐藏网页。
-    * 解开谜题！否则你将永远困在：这片虚无之地！
-3. PS: 由于年代久远 (2014_05)，页面音乐可能无法播放，  
-    * 且背景图片尺寸无法自适应浏览器窗口大小。
+1. 打开 [决斗之城挂机辅助.exe](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City/tree/master/决斗之城挂机辅助.exe)
+    * 它会自动居右
+2. 在打开了[「夜神模拟器」](https://www.yeshen.com/)的情况下，点击辅助的“启动”按钮
+    * 确保屏幕中间无遮挡，直接就是「模拟器」
+        * 辅助会检查该窗口
 
 ## 历史
-* 该项目 👉 [脱机个人网页们](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B)
-    * （个人时间）由 16 岁小谢
-    * （世界时间）在 2014 年 的 
-    * （个人阶段）高中时期 搭建
+* 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
+    * （个人时间）由 20 ~ 21 岁小谢
+    * （世界时间）在 2018 ~ 2019 年的 
+    * （个人阶段）大学本科 (1.5 ~ 2.5 / 4.0) 时期 构建
 
 <!-- ## 软件架构
 软件架构说明

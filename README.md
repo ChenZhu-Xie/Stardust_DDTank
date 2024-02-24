@@ -1,11 +1,16 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/index.png "『Home/Main entrance』page")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/logo.jpg "Logo for Stardust-DDTank Multi-terminal Auxiliary-tools")
 
-* 中文「自述文档」㊥ 👉 [星尘弹弹堂 辅助软件](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
-
-# Stardust Multi-terminal [DDTank](https://www.ddtank.com) Auxiliary-tools
+# Stardust [DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools
 
 ## About
-* This project 👉 [offline web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) is a series of static personal webpages I created at the age of 16.
+* This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
+    * Initialized by dive ⊶ 👉 [Presentation on course「physics and the future of mankind」](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/05__2.3__Courses_Presentations/2__2.2__「Physics_and_the_future_of_mankind」_Speach__1.0_year)
+        * Corresponding career ⊂ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
+    * Participated in competition ⊷ 👉 [Self Competitions](https://github.com/ChenZhu-Xie/undergraduate_activities/tree/master/07__3.2__Self_Competitions)
+        * Corresponding career ⊂ 👉 [undergraduate activities](https://github.com/ChenZhu-Xie/undergraduate_activities)
+    * Adopt language ⊷ 👉[「EPL - Easier Programming Language」](https://www.eyuyan.com)
+        * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game[「Dueling City」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
+* 中文「自述文档」㊥ 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
 ## Description
 * Computer course assignment during high school.
@@ -13,20 +18,22 @@
     * Limited to the time and technology at that time, the effect may be unsatisfactory
     * But in terms of ideas, there are bi-directional links, puzzle solving/decryption, modifying game files, space exploration, hand-picked background music, etc. All of this constitutes the exploration, shouting, and wandering of that personal period.
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/offline_web_pages/master/img/entrance.png "『Portal/Hidden entrance』page")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile")
 
 ## Inplementation
-1. Enter homepage from "Homepage (My Mini Website Portal). lnk".  
-2. Explore freely :point_right: until you decrypt the password :point_right: and unlock the hidden webpages.
-    * Solve the riddle! Or you'll be stuck here: in the middle of nowhere forever!
-3. PS: Due to its age (2014_05), page music may not be playable,  
-    * and the background image size cannot adapt to the browser window size.
+1. Run [The「Hang-up Assist」for Game「Dueling City」.exe](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City/tree/master/决斗之城挂机辅助.exe)
+    * It will automatically move to the right
+2. When[「Night God Simulator」](https://www.yeshen.com/)is turned on, click the Auxiliary's「Start」button
+    * Ensure that there is no obstruction in the middle of the screen, which is directly the「Emulator」
+        * The auxiliary will check the window
+
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
 ## History
-* This project 👉 [offline personal web_pages](https://github.com/ChenZhu-Xie/1A2B_3C_4A5B) was built
-    * (Personal time) by 16-year-old little Xie
-    * (Personal stage) during high school
-    * (World time) in 2014
+* This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built
+    * (Personal time) by 20~21-year-old little Xie
+    * (Personal stage) during (1.5 - 2.5) / 4.0 year in college
+    * (World time) in 2018 - 2019
 
 <!-- ## Software Architecture
 Software architecture description
