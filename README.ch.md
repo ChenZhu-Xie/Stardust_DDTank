@@ -13,7 +13,7 @@
     * 采用语言 ⊷ 👉 [易语言](https://www.eyuyan.com)
         <!-- * 也被项目采用 ⊶ 👉 [模拟器端[「决斗之城」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City) -->
         * 也被项目采用 ⊶ 👉 [模拟器端「决斗之城」挂机助手](https://gitee.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
-    * 采用语言 ⊷ 👉[「易安卓](https://www.e4asoft.com)
+    * 采用语言 ⊷ 👉[「易安卓」](https://www.e4asoft.com)
 <!-- * English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) -->
 * English「README」ⓔ 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 

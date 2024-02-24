@@ -12,7 +12,7 @@
     * Adopt language ⊷ 👉[「EPL - Easier Programming Language」](https://www.eyuyan.com)
         <!-- * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game[「Dueling City」](https://tieba.baidu.com/f?kw=%E5%86%B3%E6%96%97%E4%B9%8B%E5%9F%8E&ie=utf-8&tp=0)](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City) -->
         * Also adopted by project ⊶ 👉 [The emulator end「Hang-up Assist」for Game「Dueling City」](https://github.com/ChenZhu-Xie/Hanging_Assist__for__Dueling_City)
-    * Adopt language ⊷ 👉[「E4A - Easier For Android](https://www.e4asoft.com)
+    * Adopt language ⊷ 👉[「E4A - Easier For Android」](https://www.e4asoft.com)
 <!-- * 中文「自述文档」㊥ 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->
 * 中文「自述文档」㊥ 👉 [「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank)
 
