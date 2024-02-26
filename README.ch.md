@@ -17,7 +17,7 @@
 <!-- * English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) -->
 * English「README」ⓔ 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 
-[![「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B/raw/master/img/shot2.png)](https://www.bilibili.com/video/BV1Ay421B7a4 "「星尘弹弹堂」全平台辅助")
+[![「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/shot2.png)](https://www.bilibili.com/video/BV1Ay421B7a4 "「星尘弹弹堂」全平台辅助")
 
 ## 介绍
 * 数学模型：空气阻力正比于 -kv 的外弹道模型
