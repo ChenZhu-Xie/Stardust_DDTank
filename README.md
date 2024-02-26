@@ -23,7 +23,7 @@
     * Minimum steps, fastest shortcut, maximum amount of information
 * All platforms: Web, Mobile (Android; iOS currently unavailable), Android Emulators
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile")
+[![Stardust-DDTank Multi-terminal Auxiliary-tools](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/shot2.png)](https://youtu.be/yHp8ca3DrqY "Stardust-DDTank Multi-terminal Auxiliary-tools")
 
 ## Inplementation
 1. When「Eimulator」or「Game Webpage」is turned on, click the Auxiliary's「Start」button
@@ -33,7 +33,7 @@
     * Press the Tab key to「open or close」the instruction manual
     * To use the auxiliary, follow the「button sequence」instructions in the manual
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile")
 
 ## History
 <!-- * This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built -->
@@ -41,6 +41,8 @@
     * (Personal time) by 20~21-year-old little Xie
     * (Personal stage) during (1.5 - 2.5) / 4.0 year in college
     * (World time) in 2018 - 2019
+
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
 <!-- ## Software Architecture
 Software architecture description

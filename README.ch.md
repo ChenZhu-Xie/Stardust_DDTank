@@ -17,8 +17,7 @@
 <!-- * English「README」ⓔ 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) -->
 * English「README」ⓔ 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank)
 
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile") -->
-![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/2.星尘辅助2图.png "「星尘弹弹堂」手游辅助效果，及其数学模型")
+[![「星尘弹弹堂」全平台辅助](https://gitee.com/ChenZhu-Xie/1A2B_3C_4A5B/raw/master/img/shot2.png)](https://www.bilibili.com/video/BV1Ay421B7a4 "「星尘弹弹堂」全平台辅助")
 
 ## 介绍
 * 数学模型：空气阻力正比于 -kv 的外弹道模型
@@ -27,8 +26,8 @@
     * 最少步数、最快捷径、最高信息量
 * 全平台：页游、手游（安卓；IOS 暂无）、手游模拟器
 
-<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator") -->
-![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/3.星尘辅助3图.png "「星尘弹弹堂」网页端、模拟器端辅助效果")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/2.星尘辅助2图.png "The mathematical model of the Stardust-DDTank Auxiliary-tool on Mobile") -->
+![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/2.星尘辅助2图.png "「星尘弹弹堂」手游辅助效果，及其数学模型")
 
 ## 实施
 1. 在打开了「模拟器」或「网页」的情况下，点击辅助的「启动」按钮
@@ -37,6 +36,9 @@
 2. 启动辅助后，会弹出「说明书」
     * 按 Tab 键「打开或关闭」说明书
     * 按照「说明书」上的「按键顺序」指示，使用辅助
+
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator") -->
+![fig](https://gitee.com/ChenZhu-Xie/Stardust_DDTank/raw/master/img/3.星尘辅助3图.png "「星尘弹弹堂」网页端、模拟器端辅助效果")
 
 ## 历史
 <!-- * 该项目 👉 [「星尘[弹弹堂](https://www.ddtank.com)」全平台辅助](https://gitee.com/ChenZhu-Xie/Stardust_DDTank) -->
