@@ -21,8 +21,7 @@
 
 ## 介绍
 * 数学模型：空气阻力正比于 -kv 的外弹道模型
-    * 其他模型 ✉ 👉[浅析弹弹堂物理模型](https://www.52pojie.cn/thread-1132459-1-1.html)
-    * 其他模型 ✉ 👉[python带你求解弹弹堂炮弹物理模型——制作十万个数据的力度表？](https://www.bilibili.com/video/BV1ze4y1J7Hu)
+    * 其他模型 ✉ 👉[浅析弹弹堂物理模型](https://www.52pojie.cn/thread-1132459-1-1.html), 👉[制作十万个数据的力度表？](https://www.bilibili.com/video/BV1ze4y1J7Hu)
 * 细节亮点：枪口位置、左右三叉弹道、非正常抛物打法等
 * 快速按键：10s 内出手，按键搭配合适
     * 最少步数、最快捷径、最高信息量
