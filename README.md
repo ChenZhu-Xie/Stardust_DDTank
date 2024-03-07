@@ -18,7 +18,7 @@
 
 ## Description
 * Mathematical model: External ballistic model with air resistance proportional to -kv
-    * other model ✉ 👉 [浅析弹弹堂物理模型](https://www.52pojie.cn/thread-1132459-1-1.html), 👉 [制作十万个数据的力度表？](https://www.bilibili.com/video/BV1ze4y1J7Hu)
+    * other model ✉ 👉 [浅析弹弹堂物理模型](https://www.52pojie.cn/thread-1132459-1-1.html), 👉 [制作十万个数据的力度表？](https://www.bilibili.com/BV1ze4y1J7Hu)
 * Detail highlights: muzzle position, left and right trident trajectory, abnormal throwing tactics, etc.
 * Quick buttons: Take action within 10 seconds, with appropriate button combinations
     * Minimum steps, fastest shortcut, maximum amount of information
