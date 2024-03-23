@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Annotation>
+	<Colors>
+		<item color="ff00ff" tag="变量（推荐颜色）"/>
+		<item color="ffaa00" tag="常量（推荐颜色）"/>
+		<item color="0066ff" tag="过程（推荐颜色）"/>
+		<item color="007777" tag="自定义1"/>
+		<item color="770077" tag="自定义2"/>
+		<item color="777700" tag="自定义3"/>
+		<item color="55aa55" tag="自定义4"/>
+		<item color="aa5555" tag="自定义5"/>
+		<item color="5555aa" tag="自定义6"/>		
+	</Colors>
+</Annotation>

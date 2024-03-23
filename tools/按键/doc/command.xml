@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Command desc="按键精灵命令库 8.0版" icon="011">
+<![CDATA[欢迎您使用按键精灵命令库！这里包含了按键精灵官方目前支持的所有命令，每个命令都有尽可能详细的帮助和例子，希望能对您开发脚本提供帮助。介绍一些小技巧：<br>1. 选中命令可以看到这个命令的帮助 <br>2. 某些命令可以直接插入到代码里 <br>3. 双击命令可以插入代码。]]>
+<fileintroduction>
+<![CDATA[
+按键命令库有2个功能：显示命令帮助和插入命令。
+
+按键精灵命令库有3种不同类型的命令：自产命令（包括按键VBS命令）、VBS标准命令、插件命令。这几种命令的属性有一些区别，包括
+1、VBS标准命令是读取外部的HTML帮助文件，而其他2种命令是读取CDATA区的帮助信息
+2、插件命令点插入之后还要包括插件的名字，例如在Windows->Max命令上点插入，那么插入的应该是Windows.Max()。这个区别意味着如果要支持插入，那么需要单独开辟一个属性来包含插入的内容。
+
+按键精灵命令库XML节点属性说明：
+1、节点名：Command
+2、desc：节点显示的文字
+3、icon：节点的图标索引
+4、insertinfo：插入的信息，是一个完整的命令，例如：返回值：用户输入的文字=InputBox(提示用户的内容：字符串)
+5、helpfile：帮助信息对应的HTML文件名
+6、CDATA区：如果没有HelpFile字段，则尝试读取CDATA区作为帮助信息
+]]>
+</fileintroduction>
+	<Command desc="按键精灵基本命令" icon="000">
+<![CDATA[按键精灵基本命令是按键精灵的核心，主要包括键盘鼠标模拟、基本逻辑判断、核心功能命令等关键命令，具有使用简单、效率高的特点，通常是您编写脚本的必备功能]]>
+		<Command desc="键盘命令" icon="007">
+			<Command desc="KeyPress 按键" icon="006" insertdialog="Keybd.KeyPress" insertinfo="KeyPress 键盘虚拟码,次数"  helpfile="qm.KeyPress"/>
+			<Command desc="KeyDown 按下" icon="006" insertdialog="Keybd.KeyPress" insertinfo="KeyDown 键盘虚拟码,次数" helpfile="qm.KeyDown"/>
+			<Command desc="KeyUp 弹起" icon="006" insertdialog="Keybd.KeyPress" insertinfo="KeyUp 键盘虚拟码,次数" helpfile="qm.KeyUp"/>
+			<Command desc="WaitKey 等待按任意键" icon="006" insertdialog="Keybd.WaitKey" insertinfo="变量名=WaitKey()" helpfile="qm.WaitKey"/>
+			<Command desc="GetLastKey 检测上次按键" icon="006" insertdialog="Keybd.WaitKey" insertinfo="变量名=GetLastKey()" helpfile="qm.GetLastKey"/>
+			<Command desc="SetSimMode 设置模拟方式" insertdialog="Other.SetSimMode" icon="006" insertinfo="SetSimMode &quot;模拟方式(0普通|1硬件|2超级)&quot;"  helpfile="qm.SetSimMode"/>
+		</Command>
+		<Command desc="鼠标命令" icon="007">
+			<Command desc="LeftClick 左键单击" insertdialog="Mouse.Click" icon="006" insertinfo="LeftClick 次数" helpfile="qm.LeftClick"/>
+			<Command desc="LeftDown 左键按下" insertdialog="Mouse.Click" icon="006" insertinfo="LeftDown 次数" helpfile="qm.LeftDown"/>
+			<Command desc="LeftUp 左键弹起" insertdialog="Mouse.Click" icon="006" insertinfo="LeftUp 次数" helpfile="qm.LeftUp"/>
+			<Command desc="LeftDoubleClick 左键双击" insertdialog="Mouse.Click" icon="006" insertinfo="LeftDoubleClick 次数" helpfile="qm.LeftDoubleClick"/>
+			<Command desc="RightClick 右键单击" insertdialog="Mouse.Click" icon="006" insertinfo="RightClick 次数" helpfile="qm.RightClick"/>
+			<Command desc="RightDown 右键按下" insertdialog="Mouse.Click" icon="006" insertinfo="RightDown 次数" helpfile="qm.RightDown"/>
+			<Command desc="RightUp 右键弹起" insertdialog="Mouse.Click" icon="006" insertinfo="RightUp 次数" helpfile="qm.RightUp"/>
+			<Command desc="MiddleClick 中键单击" insertdialog="Mouse.Click" icon="006" insertinfo="MiddleClick 次数" helpfile="qm.MiddleClick"/>
+			<Command desc="MoveTo 鼠标移动" insertdialog="Mouse.MoveTo" icon="006" insertinfo="MoveTo X,Y" helpfile="qm.MoveTo"/>
+			<Command desc="MoveR 鼠标相对移动" insertdialog="Mouse.MoveR" icon="006" insertinfo="MoveR X,Y" helpfile="qm.MoveR"/>
+			<Command desc="MouseWheel 鼠标滚轮" insertdialog="Mouse.Wheel" icon="006" insertinfo="MouseWheel 1" helpfile="qm.MouseWheel"/>
+			<Command desc="SaveMousePos 保存当前鼠标所在位置" insertdialog="Mouse.SaveMousePos" icon="006" insertinfo="SaveMousePos" helpfile="qm.SaveMousePos"/>
+			<Command desc="RestoreMousePos 恢复上次保存的鼠标位置" insertdialog="Mouse.SaveMousePos" icon="006" insertinfo="RestoreMousePos" helpfile="qm.RestoreMousePos"/>
+			<Command desc="LockMouse 锁定鼠标位置" insertdialog="Mouse.LockMouse" icon="006" insertinfo="LockMouse" helpfile="qm.LockMouse"/>
+			<Command desc="UnlockMouse 解除鼠标锁定" insertdialog="Mouse.LockMouse" icon="006" insertinfo="UnlockMouse" helpfile="qm.UnlockMouse"/>
+			<Command desc="WaitClick 按任意鼠标键继续" insertdialog="Mouse.WaitClick" icon="006" insertinfo="变量名=WaitClick()" helpfile="qm.WaitClick"/>
+			<Command desc="GetLastClick 检测上次按过的鼠标键" insertdialog="Mouse.WaitClick" icon="006" insertinfo="变量名=GetLastClick()" helpfile="qm.GetLastClick"/>
+			<Command desc="GetCursorPos 得到鼠标位置坐标" insertdialog="Mouse.GetCursorPos" icon="006" insertinfo="GetCursorPos x,y" helpfile="qm.GetCursorPos"/>
+			<Command desc="GetCursorShape 得到鼠标形状" insertdialog="Mouse.GetCursorShape" icon="006" insertinfo="shape=GetCursorShape(0)" helpfile="qm.GetCursorShape"/>
+			<Command desc="SetSimMode 设置模拟方式" insertdialog="Other.SetSimMode" icon="006" insertinfo="SetSimMode &quot;模拟方式(0普通|1硬件|2超级)&quot;"  helpfile="qm.SetSimMode"/>
+		</Command>
+		<Command desc="控制命令" icon="007">
+			<Command desc="IfColor 颜色判断" insertdialog="Control.IfColor" icon="006" insertinfo="IfColor x,y,&quot;FFFFFF&quot;,0 Then
+	//颜色一样
+Else    
+	//颜色不一样
+End If" helpfile="qm.IfColor"/>
+			<Command desc="For 循环" insertdialog="Control.for" icon="006" insertinfo="For i=1 To 10
+	//这里的脚本可以循环10次
+Next" helpfile="qm.for"/>
+			<Command desc="If 如果..则" insertdialog="Control.If" icon="006" insertinfo="i=0   
+If i=0 Then  
+	//满足条件，执行下面的脚本  
+End If
+//通过判断表达式的取值，来执行后面的动作或控制" helpfile="qm.If"/>
+			<Command desc="while 如果..则循环" insertdialog="Control.If" icon="006" insertinfo="i=10
+While i<>0
+	i=i-1
+Wend
+//当循环条件成立的时候，反复执行循环体" helpfile="qm.While"/>
+			<Command desc="Goto 跳转到标记" insertdialog="Control.Goto" icon="006" insertinfo="Goto 标记" helpfile="qm.Goto"/>
+			<Command desc="Call 调用过程" insertdialog="Control.Goto" icon="006" insertinfo="Call 过程名()" helpfile="qm.Call"/>
+			<Command desc="Rem 标记/注释" insertdialog="Control.Rem" icon="006" insertinfo="Rem 标记" helpfile="qm.Rem"/>
+			<Command desc="Sub 子程序" insertdialog="Control.Rem" icon="006" insertinfo="Sub 子程序()
+	//我是一个过程,被你调用了
+End Sub
+//定义一个过程,可以在脚本中调用这个过程" helpfile="qm.Sub"/>
+			<Command desc="Function 函数" insertdialog="" icon="006" insertinfo="Function 函数(参数列表)
+	//我是一个函数,被你调用了
+End Function
+//定义一个函数,可以在脚本中调用这个函数，支持参数和返回值" helpfile="qm.Function"/>
+			<Command desc="Select Case 情况条件选择" insertdialog="" icon="006" insertinfo="Select Case 选择条件
+Case 0
+    //情况1
+Case 1
+    //情况2
+Case Else
+    //否则
+End Select" helpfile="qm.Select"/>
+			<Command desc="Do While/Until 循环" insertdialog="" icon="006" insertinfo="Do While 条件
+    Exit Do
+    //退出循环
+Loop" helpfile="qm.Do"/>
+			<Command desc="EndScript 脚本停止运行" insertdialog="Control.EndScript" icon="006" insertinfo="EndScript" helpfile="qm.EndScript"/>
+			<Command desc="ExitScript 脚本退出运行" insertdialog="" icon="006" insertinfo="ExitScript" helpfile="qm.ExitScript"/>
+			<Command desc="RestartScript 重启脚本运行" insertdialog="" icon="006" insertinfo="RestartScript" helpfile="qm.RestartScript"/>
+		</Command>
+		<Command desc="颜色/图形命令" icon="007">
+			<Command desc="GetPixelColor 得到指定点颜色" icon="006" insertgui="QMColorActionCtl.ocx" insertinfo="GetColor=GetPixelColor(x,y)" helpfile="qm.GetPixelColor"/>
+			<Command desc="FindColor 找色" icon="006" insertgui="QMColorActionCtl.ocx" insertinfo="FindColor 0,0,1024,768,&quot;0000FF&quot;,intX,intY" helpfile="qm.FindColor"/>
+			<Command desc="FindColorEx 模糊找色" insertgui="QMColorActionCtl.ocx" icon="006" insertinfo="FindColorEx 0,0,1024,768,&quot;0000FF&quot;,0,0.9,intX,intY" helpfile="qm.FindColorEx"/>
+			<Command desc="FindCenterColor 中心找色" icon="006" insertgui="QMColorActionCtl.ocx" insertinfo="FindCenterColor 0,0,1024,768,&quot;0000FF&quot;,intX,intY" helpfile="qm.FindCenterColor"/>
+			<Command desc="FindPic 找图" insertgui="QMColorActionCtl.ocx" insertinfo="FindPic 0,0,1024,768,&quot;图片.bmp&quot;,0.9,intX,intY" icon="006" helpfile="qm.FindPic"/>
+		</Command>
+		<Command desc="其他命令" icon="007">
+			<Command desc="Delay 延时" insertdialog="Other.Delay" icon="006" insertinfo="Delay 毫秒数" helpfile="qm.Delay"/>
+			<Command desc="SayString 输入文本" insertdialog="Other.SayString" icon="006" insertinfo="SayString &quot;文字&quot;" helpfile="qm.SayString"/>
+			<Command desc="MessageBox 弹出对话框" insertdialog="Other.MessageBox" icon="006" insertinfo="MessageBox &quot;文字&quot;" helpfile="qm.MessageBox"/>
+			<Command desc="RunApp 运行" insertdialog="Other.RunApp" icon="006" insertinfo="RunApp &quot;notepad.exe&quot;" helpfile="qm.RunApp"/>
+			<Command desc="UserVar 用户定义变量" insertdialog="Other.UserVar" icon="006" insertinfo="UserVar 变量=&quot;默认值&quot; &quot;注释&quot;" helpfile="qm.UserVar"/>
+			<Command desc="SetSimMode 设置模拟方式" insertdialog="Other.SetSimMode" icon="006" insertinfo="SetSimMode &quot;模拟方式(0普通|1硬件|2超级)&quot;"  helpfile="qm.SetSimMode"/>
+			<Command desc="Import 导入命令" icon="006" insertinfo="Import &quot;vbs文件或插件名字&quot;" helpfile="qm.Import"/>
+			<Command desc="VBSBegin..VBSEnd VBS执行块" icon="006" insertinfo="VBSBegin 
+	'需要插入的VBS代码 
+VBSEnd" helpfile="qm.VBSBegin"/>
+			<Command desc="PutAttachment 释放附件" icon="006" insertinfo="PutAttachment &quot;路径&quot;,&quot;要释放的文件名&quot;" helpfile="qm.PutAttachment"/>
+			<Command desc="// 脚本注释" icon="006" insertinfo="//注释的内容" helpfile="qm.Rem2"/>
+			<Command desc="TracePrint 调试输出" icon="006" insertinfo="TracePrint 变量" helpfile="qm.TracePrint"/>
+			<Command desc="LogStart 开始记录日志" icon="006" insertinfo="LogStart 文件名" helpfile="qm.LogStart"/>
+			<Command desc="LogStop 停止日志记录" icon="006" insertinfo="LogStop" helpfile="qm.LogStop"/>
+			<Command desc="多线程命令(测试)" icon="007">
+				<Command desc="DimEnv 定义环境变量名" icon="006" insertinfo="DimEnv 环境变量名" helpfile="qm.DimEnv"/>
+				<Command desc="BeginThread 同时运行过程" icon="006" insertinfo="BeginThread 过程名" helpfile="qm.BeginThread"/>
+				<Command desc="StopThread 停止线程运行" icon="006" insertinfo="StopThread 线程ID" helpfile="qm.StopThread"/>
+				<Command desc="PauseThread 暂停线程运行" icon="006" insertinfo="PauseThread 线程ID" helpfile="qm.PauseThread"/>
+				<Command desc="ContinueThread 继续线程运行" icon="006" insertinfo="ContinueThread 线程ID" helpfile="qm.ContinueThread"/>
+			</Command>
+		</Command>
+		<Command desc="事件子程序" icon="020">
+			<Command desc="OnScriptLoad 脚本载入事件子程序" icon="006" insertinfo="Sub OnScriptLoad()
+	MessageBox &quot;脚本载入配置完成！&quot;
+End Sub" helpfile="qm.OnScriptLoad"/>
+			<Command desc="OnScriptExit 脚本停止事件子程序" icon="006" insertinfo="Sub OnScriptExit()
+	MessageBox &quot;脚本已经停止！&quot;
+End Sub" helpfile="qm.OnScriptExit"/>
+		</Command>
+	</Command>
+	<Command desc="标准VBS命令" icon="000">
+<![CDATA[VB Script语言介绍
+VBS语言是微软公司提供的一种程序开发语言，它将灵活的脚本应用于更广泛的领域，据不完全统计，使用VBS脚本语言的用户数是同类产品中全球最多的，具有大量的教程等学习资料。
+
+按键精灵中的VBS语言
+按键精灵首创在键盘鼠标模拟类软件中引入高级语言，无限扩展了按键精灵的语言功能。使用微软提供的VBS引擎，具有无可比拟的兼容性和稳定性。
+
+VBS语句的特点
+* 指令丰富：上百个标准函数可以随意供您使用
+* 效率较低：比起按键精灵本身的语句，使用VBS语句的效率会有一定的降低
+* 稳定性好：微软提供的VBS引擎是Windows操作平台的一部分，稳定性极佳
+
+如何在按键精灵里使用VBS语句？
+按键精灵支持大部分标准的VBS命令(除了一些多行指令，比如if,for,while等)，您可以在脚本中直接使用这些命令。]]>
+		<Command desc="常数" icon="018">
+			<Command desc="颜色常数" icon="018" helpfile="vbs.vsconColor"/>
+			<Command desc="比较常数" icon="018" helpfile="vbs.vsconCompare"/>
+			<Command desc="日期和时间常数" icon="018" helpfile="vbs.vsconDateTime"/>
+			<Command desc="日期格式常数" icon="018" helpfile="vbs.vsconDateFormat"/>
+			<Command desc="DriveType 常数" icon="018" helpfile="vbs.vsconDriveType"/>
+			<Command desc="FileAttributes 常数" icon="018" helpfile="vbs.vsconFileAttribute"/>
+			<Command desc="文件输入/输出常数" icon="018" helpfile="vbs.vsconFileIO"/>
+			<Command desc="其他常数" icon="018" helpfile="vbs.vsconMisc"/>
+			<Command desc="MsgBox 常数" icon="018" helpfile="vbs.vsconMsgBox"/>
+			<Command desc="SpecialFolder 常数" icon="018" helpfile="vbs.vsconSpecialFolder"/>
+			<Command desc="字符串常数" icon="018" helpfile="vbs.vsconString"/>
+			<Command desc="Tristate 常数" icon="018" helpfile="vbs.vsconTriState"/>
+			<Command desc="VarType 常数" icon="018" helpfile="vbs.vsconVarType"/>
+		</Command>
+		<Command desc="函数" icon="003">
+			<Command desc="数学函数" icon="003">
+				<Command desc="Abs 函数" icon="003" insertinfo="Abs(数值)" helpfile="vbs.vsfctAbs"/>
+				<Command desc="Atn 函数" icon="003" insertinfo="Atn(数值)" helpfile="vbs.vsfctAtn"/>
+				<Command desc="Cos 函数" icon="003" insertinfo="Cos(数值)" helpfile="vbs.vsfctCos"/>
+				<Command desc="Exp 函数" icon="003" insertinfo="Exp(数值)" helpfile="vbs.vsfctExp"/>
+				<Command desc="Fix 函数" icon="003" insertinfo="Fix(数值)" helpfile="vbs.vsfctInt"/>
+				<Command desc="Int 函数" icon="003" insertinfo="Int(数值)" helpfile="vbs.vsfctInt"/>
+				<Command desc="Log 函数" icon="003" insertinfo="Log(数值)" helpfile="vbs.vsfctLog"/>
+				<Command desc="Oct 函数" icon="003" insertinfo="Oct(数值)" helpfile="vbs.vsfctOct"/>
+				<Command desc="Sgn 函数" icon="003" insertinfo="Sgn(数值)" helpfile="vbs.vsfctSgn"/>
+				<Command desc="Sin 函数" icon="003" insertinfo="Sin(数值)" helpfile="vbs.vsfctSin"/>
+				<Command desc="Rnd 函数" icon="003" insertinfo="Rnd(数值)" helpfile="vbs.vsfctRnd"/>
+				<Command desc="Round 函数" icon="003" insertinfo="Round(数值)" helpfile="vbs.vsfctRound"/>
+				<Command desc="Sqr 函数" icon="003" insertinfo="Sqr(数值)" helpfile="vbs.vsfctSqr"/>
+				<Command desc="Tan 函数" icon="003" insertinfo="Tan(数值)" helpfile="vbs.vsfctTan"/>
+			</Command>
+			<Command desc="字符串函数" icon="003">
+				<Command desc="Asc 函数" icon="003" insertinfo="Asc(字符串)" helpfile="vbs.vsfctAsc"/>
+				<Command desc="Chr 函数" icon="003" insertinfo="Chr(可以标识字符的数字)" helpfile="vbs.vsfctChr"/>
+				<Command desc="Hex 函数" icon="003" insertinfo="Hex(表达式)" helpfile="vbs.vsfctHex"/>
+				<Command desc="InStr 函数" icon="003" insertinfo="InStr(接受搜索的字符串,要搜索的字符串)" helpfile="vbs.vsfctInStr"/>
+				<Command desc="InStrRev 函数" icon="003" insertinfo="InStrRev(接受搜索的字符串,要搜索的字符串)" helpfile="vbs.vsfctInStrRev"/>
+				<Command desc="Join 函数" icon="003" insertinfo="Join(字符串数组)" helpfile="vbs.vsfctJoin"/>
+				<Command desc="LCase 函数" icon="003" insertinfo="LCase(字符串)" helpfile="vbs.vsfctLCase"/>
+				<Command desc="Left 函数" icon="003" insertinfo="Left(字符串,要返回字符数)" helpfile="vbs.vsfctLeft"/>
+				<Command desc="Len 函数" icon="003" insertinfo="Len(字符串)" helpfile="vbs.vsfctLen"/>
+				<Command desc="LTrim 函数" icon="003" insertinfo="LTrim(字符串)" helpfile="vbs.vsfctLTrim"/>
+				<Command desc="Mid 函数" icon="003" insertinfo="Mid(字符串,开始位置,返回字符数)" helpfile="vbs.vsfctMid"/>
+				<Command desc="Replace 函数" icon="003" insertinfo="Replace(字符串,被替字符串,替换字符串)" helpfile="vbs.vsfctReplace"/>
+				<Command desc="Right 函数" icon="003" insertinfo="Right(字符串,要返回的字符数)" helpfile="vbs.vsfctRight"/>
+				<Command desc="RTrim 函数" icon="003" insertinfo="RTrim(字符串)" helpfile="vbs.vsfctLTrim"/>
+				<Command desc="Space 函数" icon="003" insertinfo="Space(需要的空格数)" helpfile="vbs.vsfctSpace"/>
+				<Command desc="StrComp 函数" icon="003" insertinfo="StrComp(字符串1,字符串2)" helpfile="vbs.vsfctStrComp"/>
+				<Command desc="StrReverse 函数" icon="003" insertinfo="StrReverse(字符串)" helpfile="vbs.vsfctStrReverse"/>
+				<Command desc="String 函数" icon="003" insertinfo="String(字符串长度,字符)" helpfile="vbs.vsfctString"/>
+				<Command desc="Trim 函数" icon="003" insertinfo="Trim(字符串)" helpfile="vbs.vsfctLTrim"/>
+				<Command desc="UCase 函数" icon="003" insertinfo="UCase(字符串)" helpfile="vbs.vsfctUcase"/>
+			</Command>
+			<Command desc="数组函数" icon="003">
+				<Command desc="Array 函数" icon="003" insertinfo="Array(值1,值2,值3...)" helpfile="vbs.vsfctArray"/>
+				<Command desc="Filter 函数" icon="003" insertinfo="Filter(数组,要搜索的字符串)" helpfile="vbs.vsfctFilter"/>
+				<Command desc="LBound 函数" icon="003" insertinfo="LBound(数组变量)" helpfile="vbs.vsfctLBound"/>
+				<Command desc="Split 函数" icon="003" insertinfo="Split(字符串,分隔符)" helpfile="vbs.vsfctSplit"/>
+				<Command desc="UBound 函数" icon="003" insertinfo="UBound(数组变量)" helpfile="vbs.vsfctUBound"/>
+			</Command>
+			<Command desc="类型转换函数" icon="003">
+				<Command desc="CBool 函数" icon="003" insertinfo="CBool(表达式)" helpfile="vbs.vsfctCBool"/>
+				<Command desc="CByte 函数" icon="003" insertinfo="CByte(表达式)" helpfile="vbs.vsfctCByte"/>
+				<Command desc="CCur 函数" icon="003" insertinfo="CCur(表达式)" helpfile="vbs.vsfctCCur"/>
+				<Command desc="CDate 函数" icon="003" insertinfo="CDate(日期表达式)" helpfile="vbs.vsfctCDate"/>
+				<Command desc="CDbl 函数" icon="003" insertinfo="CDbl(表达式)" helpfile="vbs.vsfctCDbl"/>
+				<Command desc="CInt 函数" icon="003" insertinfo="CInt(表达式)" helpfile="vbs.vsfctCInt"/>
+				<Command desc="CLng 函数" icon="003" insertinfo="CLng(表达式)" helpfile="vbs.vsfctCLng"/>
+				<Command desc="CSng 函数" icon="003" insertinfo="CSng(表达式)" helpfile="vbs.vsfctCSng"/>
+				<Command desc="CStr 函数" icon="003" insertinfo="CStr(表达式)" helpfile="vbs.vsfctCstr"/>
+				<Command desc="RGB 函数" icon="003" insertinfo="RGB(红,绿,蓝)" helpfile="vbs.vsfctRGB"/>
+			</Command>
+			<Command desc="时间日期函数" icon="003">
+				<Command desc="Date 函数" icon="003" insertinfo="Date" helpfile="vbs.vsfctDate"/>
+				<Command desc="DateAdd 函数" icon="003" insertinfo="DateAdd(时间间隔,间隔的个数,时间)" helpfile="vbs.vsfctDateAdd"/>
+				<Command desc="DateDiff 函数" icon="003" insertinfo="DateDiff(时间间隔,开始时间,结束时间)" helpfile="vbs.vsfctDateDiff"/>
+				<Command desc="DatePart 函数" icon="003" insertinfo="DatePart(时间间隔,日期表达式)" helpfile="vbs.vsfctDatePart"/>
+				<Command desc="DateSerial 函数" icon="003" insertinfo="DateSerial(年,月,日)" helpfile="vbs.vsfctDateSerial"/>
+				<Command desc="DateValue 函数" icon="003" insertinfo="DateValue(日期字符串表达式)" helpfile="vbs.vsfctDateValue"/>
+				<Command desc="Day 函数" icon="003" insertinfo="Day(日期表达式)" helpfile="vbs.vsfctDay"/>
+				<Command desc="Hour 函数" icon="003" insertinfo="Hour(时间表达式)" helpfile="vbs.vsfctHour"/>
+				<Command desc="Minute 函数" icon="003" insertinfo="Minute(时间表达式)" helpfile="vbs.vsfctMinute"/>
+				<Command desc="Month 函数" icon="003" insertinfo="Month(日期表达式)" helpfile="vbs.vsfctMonth"/>
+				<Command desc="MonthName 函数" icon="003" insertinfo="MonthName(月份的数值)" helpfile="vbs.vsfctMonthName"/>
+				<Command desc="Now 函数" icon="003" insertinfo="Now" helpfile="vbs.vsfctNow"/>
+				<Command desc="Second 函数" icon="003" insertinfo="Second(时间表达式)" helpfile="vbs.vsfctSecond"/>
+				<Command desc="Time 函数" icon="003" insertinfo="Time" helpfile="vbs.vsfctTime"/>
+				<Command desc="TimeSerial 函数" icon="003" insertinfo="TimeSerial(小时,分钟,秒)" helpfile="vbs.vsfctTimeSerial"/>
+				<Command desc="TimeValue 函数" icon="003" insertinfo="TimeValue(时间表达式)" helpfile="vbs.vsfctTimeValue"/>
+				<Command desc="Weekday 函数" icon="003" insertinfo="Weekday(日期表达式)" helpfile="vbs.vsfctWeekday"/>
+				<Command desc="WeekdayName 函数" icon="003" insertinfo="WeekdayName(星期中某天的数值)" helpfile="vbs.vsfctWeekdayName"/>
+				<Command desc="Year 函数" icon="003" insertinfo="Year(日期表达式)" helpfile="vbs.vsfctYear"/>
+			</Command>
+			<Command desc="其他函数" icon="003">
+				<Command desc="CreateObject 函数" icon="003" insertinfo="CreateObject(应用程序名.对象类型)" helpfile="vbs.vsfctCreateObject"/>
+				<Command desc="Eval 函数" icon="003" insertinfo="Eval(表达式)" helpfile="vbs.vsfctEval"/>
+				<Command desc="FormatCurrency 函数" icon="003" insertinfo="FormatCurrency(表达式)" helpfile="vbs.vsfctFormatCurrency"/>
+				<Command desc="FormatDateTime 函数" icon="003" insertinfo="FormatDateTime(日期表达式)" helpfile="vbs.vsfctFormatDateTime"/>
+				<Command desc="FormatNumber 函数" icon="003" insertinfo="FormatNumber(表达式)" helpfile="vbs.vsfctFormatNumber"/>
+				<Command desc="FormatPercent 函数" icon="003" insertinfo="FormatPercent(表达式)" helpfile="vbs.vsfctFormatPercent"/>
+				<Command desc="GetObject 函数" icon="003" insertinfo="GetObject(对象路径)" helpfile="vbs.vsfctGetObject"/>
+				<Command desc="InputBox 函数" icon="003" insertinfo="InputBox(消息字符串,标题)" helpfile="vbs.vsfctInputBox"/>
+				<Command desc="IsArray 函数" icon="003" insertinfo="IsArray(变量)" helpfile="vbs.vsfctIsArray"/>
+				<Command desc="IsDate 函数" icon="003" insertinfo="IsDate(日期)" helpfile="vbs.vsfctIsDate"/>
+				<Command desc="IsEmpty 函数" icon="003" insertinfo="IsEmpty(表达式)" helpfile="vbs.vsfctIsEmpty"/>
+				<Command desc="IsNull 函数" icon="003" insertinfo="IsNull(表达式)" helpfile="vbs.vsfctIsNull"/>
+				<Command desc="IsNumeric 函数" icon="003" insertinfo="IsNumeric(表达式)" helpfile="vbs.vsfctIsNumeric"/>
+				<Command desc="IsObject 函数" icon="003" insertinfo="IsObject(表达式)" helpfile="vbs.vsfctIsObject"/>
+				<Command desc="LoadPicture 函数" icon="003" insertinfo="LoadPicture(文件名称)" helpfile="vbs.vsfctLoadPicture"/>
+				<Command desc="MsgBox 函数" icon="003" insertinfo="MsgBox(消息字符串)" helpfile="vbs.vsfctMsgBox"/>
+				<Command desc="ScriptEngine 函数" icon="003" insertinfo="ScriptEngine" helpfile="vbs.vsfctScriptEngine"/>
+				<Command desc="ScriptEngineBuildVersion 函数" icon="003" insertinfo="ScriptEngineBuildVersion" helpfile="vbs.vsfctScriptEngineBuildVersion"/>
+				<Command desc="ScriptEngineMajorVersion 函数" icon="003" insertinfo="ScriptEngineMajorVersion" helpfile="vbs.vsfctScriptEngineMajorVersion"/>
+				<Command desc="ScriptEngineMinorVersion 函数" icon="003" insertinfo="ScriptEngineMinorVersion" helpfile="vbs.vsfctScriptEngine"/>
+				<Command desc="TypeName 函数" icon="003" insertinfo="TypeName(变量)" helpfile="vbs.vsfctTypeName"/>
+				<Command desc="VarType 函数" icon="003" insertinfo="VarType(变量)" helpfile="vbs.vsfctVarType"/>
+			</Command>
+		</Command>
+		<Command desc="方法" icon="006">
+			<Command desc="Add 方法" icon="006" helpfile="vbs.vsmthAdd"/>
+			<Command desc="AddFolders 方法" icon="006" helpfile="vbs.vsmthAddFolders"/>
+			<Command desc="BuildPath 方法" icon="006" helpfile="vbs.vsmthBuildPath"/>
+			<Command desc="Clear 方法" icon="006" helpfile="vbs.vsmthClear"/>
+			<Command desc="Close 方法" icon="006" helpfile="vbs.vsmthClose"/>
+			<Command desc="Copy 方法" icon="006" helpfile="vbs.vsmthCopy"/>
+			<Command desc="CopyFile 方法" icon="006" helpfile="vbs.vsmthCopyFile"/>
+			<Command desc="CopyFolder 方法" icon="006" helpfile="vbs.vsmthCopyFolder"/>
+			<Command desc="CreateFolder 方法" icon="006" helpfile="vbs.vsmthCreateFolder"/>
+			<Command desc="CreateTextFile 方法" icon="006" helpfile="vbs.vsmthCreateTextFile"/>
+			<Command desc="Delete 方法" icon="006" helpfile="vbs.vsmthDelete"/>
+			<Command desc="DeleteFile 方法" icon="006" helpfile="vbs.vsmthDeleteFile"/>
+			<Command desc="DeleteFolder 方法" icon="006" helpfile="vbs.vsmthDeleteFolder"/>
+			<Command desc="DriveExists 方法" icon="006" helpfile="vbs.vsmthDriveExists"/>
+			<Command desc="Execute 方法" icon="006" helpfile="vbs.vsmthExecute"/>
+			<Command desc="FileExists 方法" icon="006" helpfile="vbs.vsmthExists"/>
+			<Command desc="File 方法" icon="006" helpfile="vbs.vsmthFileExists"/>
+			<Command desc="FileExists 方法" icon="006" helpfile="vbs.vsmthFolderExists"/>
+			<Command desc="GetAbsolutePathName 方法" icon="006" helpfile="vbs.vsmthGetAbsolutePathName"/>
+			<Command desc="GetBaseName 方法" icon="006" helpfile="vbs.vsmthGetBaseName"/>
+			<Command desc="GetDrive 方法" icon="006" helpfile="vbs.vsmthGetDrive"/>
+			<Command desc="GetDriveName 方法" icon="006" helpfile="vbs.vsmthGetDriveName"/>
+			<Command desc="GetExtensionName 方法" icon="006" helpfile="vbs.vsmthGetExtensionName"/>
+			<Command desc="GetFile 方法" icon="006" helpfile="vbs.vsmthGetFile"/>
+			<Command desc="GetFileName 方法" icon="006" helpfile="vbs.vsmthGetFileName"/>
+			<Command desc="GetFolder 方法" icon="006" helpfile="vbs.vsmthGetFolder"/>
+			<Command desc="GetParentFolderName 方法" icon="006" helpfile="vbs.vsmthGetParentFolderName"/>
+			<Command desc="GetSpecialFolder 方法" icon="006" helpfile="vbs.vsmthGetSpecialFolder"/>
+			<Command desc="GetTempName 方法" icon="006" helpfile="vbs.vsmthGetTempName"/>
+			<Command desc="Items 方法" icon="006" helpfile="vbs.vsmthItems"/>
+			<Command desc="Keys 方法" icon="006" helpfile="vbs.vsmthKeys"/>
+			<Command desc="Move 方法" icon="006" helpfile="vbs.vsmthMove"/>
+			<Command desc="MoveFile 方法" icon="006" helpfile="vbs.vsmthMoveFile"/>
+			<Command desc="MoveFolder 方法" icon="006" helpfile="vbs.vsmthMoveFolder"/>
+			<Command desc="OpenAsTextStream 方法" icon="006" helpfile="vbs.vsmthOpenAsTextStream"/>
+			<Command desc="OpenTextFile 方法" icon="006" helpfile="vbs.vsmthOpenTextFile"/>
+			<Command desc="Raise 方法" icon="006" helpfile="vbs.vsmthRaise"/>
+			<Command desc="Read 方法" icon="006" helpfile="vbs.vsmthRead"/>
+			<Command desc="ReadAll 方法" icon="006" helpfile="vbs.vsmthReadAll"/>
+			<Command desc="ReadLine 方法" icon="006" helpfile="vbs.vsmthReadLine"/>
+			<Command desc="Remove 方法" icon="006" helpfile="vbs.vsmthRemove"/>
+			<Command desc="RemoveAll 方法" icon="006" helpfile="vbs.vsmthRemoveAll"/>
+			<Command desc="Skip 方法" icon="006" helpfile="vbs.vsmthSkip"/>
+			<Command desc="SkipLine 方法" icon="006" helpfile="vbs.vsmthSkipLine"/>
+			<Command desc="Write 方法" icon="006" helpfile="vbs.vsmthWrite"/>
+			<Command desc="WriteBlankLines 方法" icon="006" helpfile="vbs.vsmthWriteBlankLines"/>
+			<Command desc="WriteLine 方法" icon="006" helpfile="vbs.vsmthWriteLine"/>
+		</Command>
+		<Command desc="对象" icon="010">
+			<Command desc="Dictionary 对象" icon="010" helpfile="vbs.vsobjDictionary"/>
+			<Command desc="Drive 对象" icon="010" helpfile="vbs.vsobjDrive"/>
+			<Command desc="Err 对象" icon="010" helpfile="vbs.vsobjErr"/>
+			<Command desc="File 对象 " icon="010" helpfile="vbs.vsobjFile"/>
+			<Command desc="FileSystemObject 对象" icon="010" helpfile="vbs.vsobjFileSystem"/>
+			<Command desc="Folder 对象" icon="010" helpfile="vbs.vsobjFolder"/>
+			<Command desc="TextStream 对象" icon="010" helpfile="vbs.vsobjTextStream"/>
+		</Command>
+		<Command desc="运算符" icon="019">
+			<Command desc="加法运算符 (+)" icon="019" helpfile="vbs.vsoprAdd"/>
+			<Command desc="And 运算符" icon="019" helpfile="vbs.vsoprAnd"/>
+			<Command desc="连接运算符" icon="019" helpfile="vbs.vsoprConcatenation"/>
+			<Command desc="除法运算符 (/)" icon="019" helpfile="vbs.vsoprDivide"/>
+			<Command desc="Eqv 运算符" icon="019" helpfile="vbs.vsoprEqv"/>
+			<Command desc="求幂运算符 (^)" icon="019" helpfile="vbs.vsoprExponentiation"/>
+			<Command desc="Imp 运算符" icon="019" helpfile="vbs.vsoprImp"/>
+			<Command desc="整数除法运算符 (\)" icon="019" helpfile="vbs.vsoprIntegerDivide"/>
+			<Command desc="Is 运算符" icon="019" helpfile="vbs.vsoprIs"/>
+			<Command desc="Mod 运算符" icon="019" helpfile="vbs.vsoprMod"/>
+			<Command desc="乘法运算符 (*)" icon="019" helpfile="vbs.vsoprMultiply"/>
+			<Command desc="求负运算符 (-)" icon="019" helpfile="vbs.vsoprSubtract"/>
+			<Command desc="Not 运算符" icon="019" helpfile="vbs.vsoprNot"/>
+			<Command desc="Or 运算符" icon="019" helpfile="vbs.vsoprOr"/>
+			<Command desc="运算符优先级" icon="019" helpfile="vbs.vsgrpOperatorPrecedence"/>
+			<Command desc="减法运算符 (-)" icon="019" helpfile="vbs.vsoprSubtract"/>
+			<Command desc="Xor 运算符" icon="019" helpfile="vbs.vsoprXor"/>
+		</Command>
+		<Command desc="属性" icon="009">
+			<Command desc="Attributes 属性" icon="009" helpfile="vbs.vsproAttributes"/>
+			<Command desc="AtEndOfLine 属性" icon="009" helpfile="vbs.vsproAtEndOfLine"/>
+			<Command desc="AtEndOfStream 属性" icon="009" helpfile="vbs.vsproAtEndOfStream"/>
+			<Command desc="AvailableSpace 属性" icon="009" helpfile="vbs.vsproAvailableSpace"/>
+			<Command desc="Column 属性" icon="009" helpfile="vbs.vsproColumn"/>
+			<Command desc="CompareMode 属性" icon="009" helpfile="vbs.vsproCompareMode"/>
+			<Command desc="Count 属性" icon="009" helpfile="vbs.vsproCount"/>
+			<Command desc="DateCreated 属性" icon="009" helpfile="vbs.vsproDateCreated"/>
+			<Command desc="DateLastAccessed 属性" icon="009" helpfile="vbs.vsproDateLastAccessed"/>
+			<Command desc="DateLastModified 属性" icon="009" helpfile="vbs.vsproDateLastModified"/>
+			<Command desc="Description 属性" icon="009" helpfile="vbs.vsproDescription"/>
+			<Command desc="Drive 属性" icon="009" helpfile="vbs.vsproDrive"/>
+			<Command desc="DriveLetter 属性" icon="009" helpfile="vbs.vsproDriveLetter"/>
+			<Command desc="Drives 属性" icon="009" helpfile="vbs.vsproDrives"/>
+			<Command desc="DriveType 属性" icon="009" helpfile="vbs.vsproDriveType"/>
+			<Command desc="Files 属性" icon="009" helpfile="vbs.vsproFiles"/>
+			<Command desc="FileSystem 属性" icon="009" helpfile="vbs.vsproFileSystem"/>
+			<Command desc="FreeSpace 属性" icon="009" helpfile="vbs.vsproFreeSpace"/>
+			<Command desc="HelpContext 属性" icon="009" helpfile="vbs.vsproHelpContext"/>
+			<Command desc="HelpFile 属性" icon="009" helpfile="vbs.vsproHelpFile"/>
+			<Command desc="IsReady 属性" icon="009" helpfile="vbs.vsproIsReady"/>
+			<Command desc="IsRootFolder 属性" icon="009" helpfile="vbs.vsproIsRootFolder"/>
+			<Command desc="Item 属性" icon="009" helpfile="vbs.vsproItem"/>
+			<Command desc="Line 属性" icon="009" helpfile="vbs.vsproLine"/>
+			<Command desc="Name 属性" icon="009" helpfile="vbs.vsproName"/>
+			<Command desc="Number 属性" icon="009" helpfile="vbs.vsproNumber"/>
+			<Command desc="ParentFolder 属性" icon="009" helpfile="vbs.vsproParentFolder"/>
+			<Command desc="Path 属性" icon="009" helpfile="vbs.vsproPath"/>
+			<Command desc="RootFolder 属性" icon="009" helpfile="vbs.vsproRootFolder"/>
+			<Command desc="SerialNumber 属性" icon="009" helpfile="vbs.vsproSerialNumber"/>
+			<Command desc="ShareName 属性" icon="009" helpfile="vbs.vsproShareName"/>
+			<Command desc="ShortName 属性" icon="009" helpfile="vbs.vsproShortName"/>
+			<Command desc="ShortPath 属性" icon="009" helpfile="vbs.vsproShortPath"/>
+			<Command desc="Size 属性" icon="009" helpfile="vbs.vsproSize"/>
+			<Command desc="Source 属性" icon="009" helpfile="vbs.vsproSource"/>
+			<Command desc="SubFolders 属性" icon="009" helpfile="vbs.vsproSubFolders"/>
+			<Command desc="TotalSize 属性" icon="009" helpfile="vbs.vsproTotalSize"/>
+			<Command desc="Type 属性" icon="009" helpfile="vbs.vsproType"/>
+			<Command desc="VolumeName 属性" icon="009" helpfile="vbs.vsproVolumeName"/>
+		</Command>
+		<Command desc="语句" icon="020">
+			<Command desc="Call 语句" icon="020" insertinfo="Call 调用的过程名" helpfile="vbs.vsstmCall"/>
+			<Command desc="Const 语句" icon="020" insertinfo="Const 常数名=文字或常数" helpfile="vbs.vsstmConst"/>
+			<Command desc="Dim 语句" icon="020" insertinfo="Dim 变量" helpfile="vbs.vsstmDim"/>
+			<Command desc="Erase 语句" icon="020" insertinfo="Erase 数组变量" helpfile="vbs.vsstmErase"/>
+			<Command desc="Function 语句" icon="020" helpfile="vbs.vsstmFunction"/>
+			<Command desc="Randomize 语句" icon="020" insertinfo="Randomize 数值" helpfile="vbs.vsstmRandomize"/>
+			<Command desc="ReDim 语句" icon="020" insertinfo="ReDim 变量" helpfile="vbs.vsstmReDim"/>
+			<Command desc="Set 语句" icon="020" insertinfo="Set 变量=对象" helpfile="vbs.vsstmSet"/>
+		</Command>
+	</Command>
+	<Command desc="按键精灵插件命令" icon="000">
+<![CDATA[按键精灵插件是按键精灵提供的一种开放的功能接口。只要您稍懂一点编写程序的知识，就可以通过自己写按键精灵插件，实现比较特殊、高级的功能。按键精灵官方会不断扩充插件的功能，也欢迎您把自己写的插件提交给我们，和大家共同分享您的智慧！]]>
+	</Command>
+	<Command desc="我的命令库" icon="011">
+<![CDATA[我的命令库是按键精灵提供的一种开放的功能接口。只要您稍懂一点按键脚本编写的知识，就可以通过自己写我的命令库，实现比较特殊、高级的功能。]]>
+	</Command>
+</Command>

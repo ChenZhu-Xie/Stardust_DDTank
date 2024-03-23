@@ -1,0 +1,248 @@
+<SETTINGS>
+<OPTIONS>
+	<WordDelimeters>" \t\n,/?LTGT;.:\"'{[}]~`%^AMP*()-+=!"</WordDelimeters>
+	<SpecialDelimiters>";.{}\n"</SpecialDelimiters>
+	<IntelliSenseChars>"."</IntelliSenseChars>
+</OPTIONS>
+<COLOR_DATA>
+	<KEYWORDS>
+		<Color>0000ff</Color>
+		<CaseSensitive>False</CaseSensitive>
+		<Keyword>KeyPress</Keyword>
+		<Keyword>KeyDown</Keyword>
+		<Keyword>KeyUp</Keyword>
+		<Keyword>KeyPressH</Keyword>
+		<Keyword>KeyDownH</Keyword>
+		<Keyword>KeyUpH</Keyword>
+		<Keyword>KeyPressS</Keyword>
+		<Keyword>KeyDownS</Keyword>
+		<Keyword>KeyUpS</Keyword>
+		<Keyword>LeftClick</Keyword>
+		<Keyword>RightClick</Keyword>
+		<Keyword>MiddleClick</Keyword>
+		<Keyword>LeftDoubleClick</Keyword>
+		<Keyword>LeftDown</Keyword>
+		<Keyword>LeftUp</Keyword>
+		<Keyword>RightDown</Keyword>
+		<Keyword>RightUp</Keyword>
+		<Keyword>LeftClickH</Keyword>
+		<Keyword>RightClickH</Keyword>
+		<Keyword>MiddleClickH</Keyword>
+		<Keyword>LeftDoubleClickH</Keyword>
+		<Keyword>LeftDownH</Keyword>
+		<Keyword>LeftUpH</Keyword>
+		<Keyword>RightDownH</Keyword>
+		<Keyword>RightUpH</Keyword>
+		<Keyword>LeftClickS</Keyword>
+		<Keyword>RightClickS</Keyword>
+		<Keyword>MiddleClickS</Keyword>
+		<Keyword>LeftDoubleClickS</Keyword>
+		<Keyword>LeftDownS</Keyword>
+		<Keyword>LeftUpS</Keyword>
+		<Keyword>RightDownS</Keyword>
+		<Keyword>RightUpS</Keyword>
+		<Keyword>MoveTo</Keyword>
+		<Keyword>MoveR</Keyword>
+		<Keyword>MouseWheel</Keyword>
+		<Keyword>MoveToH</Keyword>
+		<Keyword>MoveRH</Keyword>
+		<Keyword>MoveToS</Keyword>
+		<Keyword>MoveRS</Keyword>
+		<Keyword>SaveMousePos</Keyword>
+		<Keyword>RestoreMousePos</Keyword>
+		<Keyword>LockMouse</Keyword>
+		<Keyword>UnlockMouse</Keyword>
+		<Keyword>WaitKey</Keyword>
+		<Keyword>GetLastKey</Keyword>
+		<Keyword>WaitClick</Keyword>
+		<Keyword>GetLastClick</Keyword>
+		<Keyword>Delay</Keyword>
+		<Keyword>MessageBox</Keyword>
+		<Keyword>MsgBox</Keyword>
+		<Keyword>Beep</Keyword>
+		<Keyword>SayString</Keyword>
+		<Keyword>Sub</Keyword>
+		<Keyword>Function</Keyword>
+		<Keyword>End</Keyword>
+		<Keyword>Rem</Keyword>
+		<Keyword>If</Keyword>
+		<Keyword>Then</Keyword>
+		<Keyword>IfColor</Keyword>
+		<Keyword>Else</Keyword>
+		<Keyword>ElseIf</Keyword>
+		<Keyword>While</Keyword>
+		<Keyword>For</Keyword>
+		<Keyword>To</Keyword>
+		<Keyword>Next</Keyword>
+		<Keyword>Step</Keyword>
+		<Keyword>Each</Keyword>
+		<Keyword>Goto</Keyword>
+		<Keyword>EndScript</Keyword>
+		<Keyword>ExitScript</Keyword>
+		<Keyword>RestartScript</Keyword>
+		<Keyword>Declare</Keyword>
+		<Keyword>As</Keyword>
+		<Keyword>Alias</Keyword>
+		<Keyword>Import</Keyword>
+		<Keyword>VBSBegin</Keyword>
+		<Keyword>VBSEnd</Keyword>
+		<Keyword>Plugin</Keyword>
+		<Keyword>Lib</Keyword>
+		<Keyword>UserVar</Keyword>
+		<Keyword>PutAttachment</Keyword>
+		<Keyword>TracePrint</Keyword>
+		<Keyword>SetSimMode</Keyword>
+		<Keyword>In</Keyword>
+		<Keyword>Or</Keyword>
+		<Keyword>And</Keyword>
+		<Keyword>With</Keyword>
+		<Keyword>Select</Keyword>
+		<Keyword>Case</Keyword>
+		<Keyword>Dim</Keyword>
+		<Keyword>ReDim</Keyword>
+		<Keyword>Private</Keyword>
+		<Keyword>Erase</Keyword>
+		<Keyword>DimEnv</Keyword>
+		<Keyword>BeginThread</Keyword>
+		<Keyword>StopThread</Keyword>
+		<Keyword>PauseThread</Keyword>
+		<Keyword>ContinueThread</Keyword>
+		<Keyword>Set</Keyword>
+		<Keyword>Const</Keyword>
+		<Keyword>True</Keyword>
+		<Keyword>False</Keyword>
+		<Keyword>Call</Keyword>
+		<Keyword>Do</Keyword>
+		<Keyword>Loop</Keyword>
+		<Keyword>Wend</Keyword>
+		<Keyword>Until</Keyword>
+		<Keyword>Exit</Keyword>
+		<Keyword>Public</Keyword>
+		<Keyword>RunApp</Keyword>
+		<Keyword>GetCursorPos</Keyword>
+		<Keyword>GetPixelColor</Keyword>
+		<Keyword>FindColor</Keyword>
+		<Keyword>FindCenterColor</Keyword>
+		<Keyword>FindColorEx</Keyword>
+		<Keyword>ReadMemory</Keyword>
+		<Keyword>FindPic</Keyword>
+		<Keyword>FindPicEx</Keyword>
+		<Keyword>GetCursorShape</Keyword>
+		<Keyword>File</Keyword>
+		<Keyword>Pic</Keyword>
+		<Keyword>Msg</Keyword>
+		<Keyword>Sys</Keyword>
+		<Keyword>Net</Keyword>
+		<Keyword>Web</Keyword>
+		<Keyword>Office</Keyword>
+		<Keyword>Bkgnd</Keyword>
+		<Keyword>Color</Keyword>
+		<Keyword>Window</Keyword>
+		<Keyword>Media</Keyword>
+		<Keyword>Console</Keyword>
+		<Keyword>Memory</Keyword>
+		<Keyword>Encrypt</Keyword>
+		<Keyword>BkgndColor</Keyword>
+		<Keyword>GetSysInfo</Keyword>
+		<Keyword>LogStart</Keyword>
+		<Keyword>LogStop</Keyword>
+	</KEYWORDS>
+	<BLOCKS>
+		<BLOCK>
+			<Start>"</Start>
+			<End>"</End>
+			<Color>"darkgray"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>//</Start>
+			<Color>"darkgreen"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>'</Start>
+			<Color>"darkgreen"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+	</BLOCKS>
+</COLOR_DATA>
+<OUTLINE_DATA>
+    <IgnoreOneLineBlocks>False</IgnoreOneLineBlocks>
+    <IncludeSpaceLines>True</IncludeSpaceLines>
+    <CaseSensitive>False</CaseSensitive>
+    <WholeWords>True</WholeWords>
+    <EscapeSequences></EscapeSequences>
+    <BLOCKS>
+				<BLOCK>
+					<Start>Exit For</Start>
+					<End>Exit For</End>
+					<ReplaceString>Exit For...</ReplaceString>
+					<Ignore>True</Ignore>
+				</BLOCK>
+				<BLOCK>
+					<Start>Exit Do</Start>
+					<End>Exit Do</End>
+					<ReplaceString>Exit Do...</ReplaceString>
+					<Ignore>True</Ignore>
+				</BLOCK>
+				<BLOCK>
+					<Start>Exit Sub</Start>
+					<End>Exit Sub</End>
+					<ReplaceString>Exit Sub...</ReplaceString>
+					<Ignore>True</Ignore>
+				</BLOCK>
+				<BLOCK>
+					<Start>Exit Function</Start>
+					<End>Exit Function</End>
+					<ReplaceString>Exit Function...</ReplaceString>
+					<Ignore>True</Ignore>
+				</BLOCK>
+        <BLOCK>
+            <Start>While</Start>
+            <End>Wend</End>
+            <ReplaceString>While...</ReplaceString>
+            <!--<keywords>         <Keyword>while</Keyword>           </keywords>-->
+        </BLOCK>
+        <BLOCK>
+            <Start>For</Start>
+            <End>Next</End>
+            <ReplaceString>For...</ReplaceString>
+        </BLOCK>
+        <BLOCK>
+            <Start>With</Start>
+            <End>End With</End>
+            <ReplaceString>With...</ReplaceString>
+        </BLOCK>
+        <BLOCK>
+            <Start>Sub</Start>
+            <End>End Sub</End>
+        </BLOCK>
+        <BLOCK>
+            <Start>Function</Start>
+            <End>End Function</End>
+        </BLOCK>
+        <BLOCK>
+            <Start>Do</Start>
+            <End>Loop</End>
+            <ReplaceString>Do...Loop</ReplaceString>
+        </BLOCK>
+        <BLOCK>
+            <Start>VBSBegin</Start>
+            <End>VBSEnd</End>
+            <ReplaceString>VBSBegin...VBSEnd</ReplaceString>
+        </BLOCK>
+    </BLOCKS>
+</OUTLINE_DATA>
+<HYPERLINKS>
+    <EnableHyperlinkSupport>True</EnableHyperlinkSupport>
+    <HighlightWithColor>True</HighlightWithColor>
+    <URLPrefixes>
+        <URLPrefix>http://</URLPrefix>
+        <URLPrefix>ftp://</URLPrefix>
+        <URLPrefix>mailto:</URLPrefix>
+        <URLPrefix>file://</URLPrefix>
+        <URLPrefix>telnet://</URLPrefix>
+        <URLPrefix>gopher://</URLPrefix>
+    </URLPrefixes>
+</HYPERLINKS>
+</SETTINGS>
