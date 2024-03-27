@@ -39,9 +39,9 @@
 ## History
 <!-- * This project 👉 [Stardust-[DDTank](https://www.ddtank.com) Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built -->
 * This project 👉 [Stardust-DDTank Multi-terminal Auxiliary-tools](https://github.com/ChenZhu-Xie/Stardust_DDTank) was built
-    * (Personal time) by 20~21-year-old little Xie
-    * (Personal stage) during (1.5 - 2.5) / 4.0 year in college
-    * (World time) in 2018 - 2019
+    * (Personal time) by 19~20-year-old little Xie
+    * (Personal stage) during (1.0 - 2.5) / 4.0 year in college
+    * (World time) in 2017 - 2018
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
