@@ -45,6 +45,11 @@
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
+## Problem may encounter
+
+- 中文乱码
+    - 控制面板 → 时钟和区域 → 区域 → 管理 → 非 Unicode 程序的语言 → 更改系统区域设置 → Beta 版取消勾选
+
 <!-- ## Software Architecture
 Software architecture description
 
