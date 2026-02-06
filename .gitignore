@@ -1,32 +1,12 @@
-# Prerequisites
-*.d
+# User Custom
+*.sublime-project
+*.sublime-workspace
+.verysync
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# OS System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-# *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-# *.exe
-*.out
-*.app
+# Logs
+*.log
