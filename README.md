@@ -45,9 +45,12 @@
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/Stardust_DDTank/master/img/3.星尘辅助3图.png "The demonstrations of Stardust-DDTank Auxiliary-tools on Multi-ends: Webpage & Emulator")
 
-## Problem may encounter
+## Problems may encounter
 
+- 大漠注册到系统
+    - 管理员命令行 `regsvr32 "D:\C2D\Desktop\Code\EPL\Stardust_DDTank\tools\大漠插件\dm.dll"`
 - 中文乱码
+    - 时钟和语言 → 语言和区域 → 首选语言 → 添加语言 → 中文（中华人民共和国）
     - 控制面板 → 时钟和区域 → 区域 → 管理 → 非 Unicode 程序的语言 → 更改系统区域设置 → Beta 版取消勾选
 
 <!-- ## Software Architecture
